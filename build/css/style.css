@@ -301,6 +301,9 @@ template {
 [hidden] {
   display: none; }
 
+.theme-blue {
+  background-color: #223447; }
+
 .container {
   width: 1280px;
   margin: 0 auto; }
@@ -333,7 +336,15 @@ template {
   font-family: "OpenSans";
   font-size: 40px;
   text-align: center;
-  padding-top: 70px;
+  padding-top: 40px;
+  padding-bottom: 0px; }
+
+.theme-blue .page_title {
+  color: #fff;
+  font-family: "OpenSans";
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
   padding-bottom: 0px; }
 
 .page_description {
@@ -343,7 +354,18 @@ template {
   text-align: center;
   padding-bottom: 20px;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  color: #333333; }
+
+.theme-blue .page_description {
+  width: 660px;
+  font-family: "OpenSans";
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff; }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .page_title {
@@ -376,6 +398,16 @@ template {
   padding-top: 30px;
   padding-bottom: 30px; }
 
+.theme-blue .content_info {
+  color: #fff;
+  font-family: "OpenSans";
+  font-size: 16px;
+  text-align: left;
+  width: 558px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
 .content_instruction {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -391,6 +423,14 @@ template {
 .instruction_img img {
   width: 258px;
   height: 165px; }
+
+.theme-blue .instruction_info {
+  width: 266px;
+  color: #fff;
+  font-family: "OpenSans";
+  font-size: 16px;
+  text-align: left;
+  padding-top: 10px; }
 
 .instruction_info {
   width: 266px;
@@ -445,6 +485,14 @@ template {
 
 .description_note {
   color: #333333;
+  font-family: "OpenSans";
+  font-size: 16px;
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 5px; }
+
+.theme-blue .description_note {
+  color: #fff;
   font-family: "OpenSans";
   font-size: 16px;
   text-align: left;

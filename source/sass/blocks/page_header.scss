@@ -12,7 +12,18 @@
   font-family: "OpenSans";
   font-size: 40px;
   text-align: center;
-  padding-top: 70px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+
+}
+
+.theme-blue .page_title
+{
+  color: #fff;
+  font-family: "OpenSans";
+  font-size: 40px;
+  text-align: center;
+  padding-top: 40px;
   padding-bottom: 0px;
 
 }
@@ -26,6 +37,20 @@
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto;
+  color: #333333;
+}
+
+.theme-blue .page_description
+{
+  width: 660px;
+  font-family: "OpenSans";
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+
 }
 
 
