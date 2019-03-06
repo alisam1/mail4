@@ -342,7 +342,6 @@ template {
   font-size: 20px;
   text-align: center;
   padding-bottom: 20px;
-  border-bottom: 1px solid #333333;
   text-align: center;
   margin: 0 auto; }
 
@@ -439,7 +438,7 @@ template {
               flex-direction: column-reverse; } }
 
 .description_info {
-  width: 593px;
+  width: 565px;
   height: 49px;
   margin: 0 auto;
   margin-bottom: 40px; }
