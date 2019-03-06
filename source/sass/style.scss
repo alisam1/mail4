@@ -1,0 +1,35 @@
+@import "variables.scss";
+@import "blocks/normalize.scss";
+@import "blocks/container.scss";
+@import "blocks/page_header.scss";
+@import "blocks/main_content.scss";
+@import "blocks/description.scss";
+
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/opensans.woff2") format('woff2'),
+         url("../fonts/opensans.woff") format('woff'),
+         url("../fonts/opensans.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "OpenSans-Italic";
+    src: url("../fonts/opensansitalic.woff2") format('woff2'),
+         url("../fonts/opensansitalic.woff") format('woff'),
+         url("../fonts/opensansitalic.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+  @font-face {
+      font-family: "OpenSans-Bold";
+      src: url("../fonts/opensansbold.woff2") format('woff2'),
+           url("../fonts/opensansbold.woff") format('woff'),
+           url("../fonts/opensansbold.ttf") format('truetype');
+      font-weight: 700;
+      font-style: normal;
+  }
