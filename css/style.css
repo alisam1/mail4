@@ -349,7 +349,9 @@ template {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .page_title {
     width: 300px;
-    padding-top: 20px; }
+    padding-top: 20px;
+    margin: 0 auto;
+    padding-bottom: 20px; }
   .page_description {
     width: 300px;
     font-family: "OpenSans";
