@@ -65,6 +65,14 @@
     padding-bottom: 20px;
   }
 
+  .theme-blue .page_title
+  {
+    width: 300px;
+    padding-top: 20px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
 
   .page_description
   {
@@ -73,7 +81,17 @@
     font-size: 20px;
     text-align: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid #333333;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .theme-blue .page_description
+  {
+    width: 300px;
+    font-family: "OpenSans";
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
     text-align: center;
     margin: 0 auto;
   }
